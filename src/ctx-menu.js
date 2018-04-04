@@ -33,8 +33,9 @@ export default {
               e.stopPropagation()
             }
           } else {
-            this.ctxVisible = false
-            this.$emit('ctx-close', this.locals)
+//             this.ctxVisible = false
+//             this.$emit('ctx-close', this.locals)
+              console.log('ctx-close')
           }
         }
       )
